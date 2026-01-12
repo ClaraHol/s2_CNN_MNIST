@@ -1,8 +1,10 @@
-from src.s2_cnn_mnist.model import Model
-from src.s2_cnn_mnist.data import corrupt_mnist
-import torch
 import matplotlib.pyplot as plt
+import torch
+
 import wandb
+from src.s2_cnn_mnist.data import corrupt_mnist
+from src.s2_cnn_mnist.model import Model
+
 #from sklearn.metrics import RocCurveDisplay
 
 DEVICE = torch.device(

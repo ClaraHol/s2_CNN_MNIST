@@ -1,10 +1,11 @@
 from pathlib import Path
 
+import matplotlib.pyplot as plt
+
 #import typer
 import torch
-import matplotlib.pyplot as plt
-from torch.utils.data import Dataset
 from mpl_toolkits.axes_grid1 import ImageGrid  # only needed for plotting
+from torch.utils.data import Dataset
 
 
 class MyDataset(Dataset):

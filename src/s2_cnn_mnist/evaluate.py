@@ -1,7 +1,8 @@
-from model import Model
-from data import corrupt_mnist
 import torch
 import typer
+from model import Model
+
+from data import corrupt_mnist
 
 DEVICE = torch.device(
     "cuda"

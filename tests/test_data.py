@@ -1,6 +1,8 @@
-import torch
 import os.path
+
 import pytest
+import torch
+
 
 def corrupt_mnist() -> tuple[torch.utils.data.Dataset, torch.utils.data.Dataset]:
     """Return train and test dataloaders for corrupt MNIST."""

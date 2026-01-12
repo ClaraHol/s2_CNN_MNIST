@@ -1,7 +1,9 @@
 
-from tests import _PROJECT_ROOT
-from src.s2_cnn_mnist.train import train
 from pathlib import Path
+
+from src.s2_cnn_mnist.train import train
+from tests import _PROJECT_ROOT
+
 
 def test_train():
     try:

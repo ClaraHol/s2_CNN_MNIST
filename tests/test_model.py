@@ -1,6 +1,8 @@
-import torch
-from src.s2_cnn_mnist.model import Model
 import pytest
+import torch
+
+from src.s2_cnn_mnist.model import Model
+
 
 @pytest.mark.parametrize("batch_size", [32, 64])
 def test_model(batch_size: int):
