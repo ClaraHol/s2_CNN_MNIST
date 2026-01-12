@@ -1,0 +1,27 @@
+{
+  "os":  "Linux-6.18.3-arch1-1-x86_64-with-glibc2.42",
+  "python":  "CPython 3.12.12",
+  "startedAt":  "2026-01-08T13:18:48.027086Z",
+  "program":  "/home/clara/DTU/9. semester/ml_ops/s2_CNN_MNIST/src/s2_cnn_mnist/train.py",
+  "codePath":  "s2_CNN_MNIST/src/s2_cnn_mnist/train.py",
+  "codePathLocal":  "src/s2_cnn_mnist/train.py",
+  "git":  {
+    "commit":  "87ec3566ba155a887d17debee7baff2c6bc9ffd0"
+  },
+  "email":  "s214722@dtu.dk",
+  "root":  "/home/clara/DTU/9. semester/ml_ops/s2_CNN_MNIST",
+  "host":  "clara-framework",
+  "executable":  "/home/clara/DTU/9. semester/ml_ops/.venv/bin/python",
+  "cpu_count":  6,
+  "cpu_count_logical":  12,
+  "disk":  {
+    "/":  {
+      "total":  "473139372032",
+      "used":  "193435340800"
+    }
+  },
+  "memory":  {
+    "total":  "16028950528"
+  },
+  "writerId":  "5oikx9pjt980pgwefieke24os4yb8vl3"
+}

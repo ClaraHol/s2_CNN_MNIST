@@ -1,0 +1,50 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            oeo900k46l5f72nn3ip39q96qwagujqa:
+                args:
+                    - --batch_size=16
+                    - --epochs=15
+                    - --learning_rate=0.07231872612809663
+                codePath: s2_CNN_MNIST/src/s2_cnn_mnist/train.py
+                codePathLocal: train.py
+                email: s214722@dtu.dk
+                executable: /home/clara/DTU/9. semester/ml_ops/s2_CNN_MNIST/.venv/bin/python
+                git:
+                    commit: 87ec3566ba155a887d17debee7baff2c6bc9ffd0
+                host: clara-framework
+                os: Linux-6.18.3-arch1-1-x86_64-with-glibc2.42
+                program: /home/clara/DTU/9. semester/ml_ops/s2_CNN_MNIST/src/s2_cnn_mnist/train.py
+                python: CPython 3.12.12
+                root: /home/clara/DTU/9. semester/ml_ops/s2_CNN_MNIST/src/s2_cnn_mnist
+                startedAt: "2026-01-10T09:48:13.649726Z"
+                writerId: oeo900k46l5f72nn3ip39q96qwagujqa
+        m: []
+        python_version: 3.12.12
+        t:
+            "1":
+                - 1
+                - 5
+                - 53
+            "2":
+                - 1
+                - 5
+                - 53
+            "3":
+                - 14
+                - 16
+            "4": 3.12.12
+            "5": 0.23.1
+            "12": 0.23.1
+            "13": linux-x86_64
+architecture:
+    value: CNN
+batch_size:
+    value: 16
+dataset:
+    value: MNIST
+epochs:
+    value: 15
+learning_rate:
+    value: 0.07231872612809663
