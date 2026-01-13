@@ -7,7 +7,7 @@ steps:
     '-t',
     'europe-west1-docker.pkg.dev/$PROJECT_ID/ml-ops-registry/docker_test',
     '-f',
-    'docker_test.dockerfile'
+    'sklearn_test/docker_test.dockerfile'
   ]
 - name: 'gcr.io/cloud-builders/docker'
   id: 'Push container image'
