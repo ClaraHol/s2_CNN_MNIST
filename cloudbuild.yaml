@@ -1,19 +1,19 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
   id: 'Build container image'
-  args: [
-    'build',
-    '.',
-    '-t',
-    'europe-west1-docker.pkg.dev/$PROJECT_ID/ml-ops-registry/docker_test',
-    '-f',
-    'sklearn_test/docker_test.dockerfile'
-  ]
+  args:
+    - build
+    - -f
+    - sklearn_test/Dockerfile
+    - -t
+    - europe-west1-docker.pkg.dev/$PROJECT_ID/ml-ops-registry/sklearn_test
+    - .
+
 - name: 'gcr.io/cloud-builders/docker'
   id: 'Push container image'
-  args: [
-    'push',
-    'europe-west1-docker.pkg.dev/$PROJECT_ID/ml-ops-registry/docker_test'
-  ]
+  args:
+    - push
+    - europe-west1-docker.pkg.dev/$PROJECT_ID/ml-ops-registry/sklearn_test
+
 options:
   logging: CLOUD_LOGGING_ONLY
